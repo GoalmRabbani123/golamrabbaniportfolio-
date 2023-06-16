@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+nav  {
+    padding: 30px 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.body-bg {
+    background-color: black;
+}
+
+.logo a {
+    text-decoration: none;
+    font-weight: 600;
+    color:white;
+    font-size: 20px;
+}
+
+.logo a> span {
+    color: palevioletred;
+}
+
+.logo a:hover> span {
+    color: white;
+}
+.logo a:hover {
+    color: palevioletred;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0 20px ;
+    transition: .3s;
+}
+.menu ul li a:hover {
+    color: palevioletred;
+}
+/* Nav Area Ends Here */
+
+/* Hero Area Start Here */
+.hero {
+    padding: 50px 0;
+}
+.hero-left{
+    width: 45%;
+    color: white;
+}
+
+.hero-left h1{
+    font-size: 56px;
+    margin-bottom:15px;
+}
+.hero-left h1 >span{
+    color: palevioletred;
+}
+.hero-left p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.hero-left button {
+    padding: 10px 25px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    background: palevioletred;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition:.3s;
+}
+
+.hero-left button:hover {
+    background: white;
+    color: palevioletred;
+    outline: none;
+    font-size: 22px;
+}
+.hero-right{
+    width: 45%;
+}
+
+.hero-right img{
+    border-radius: 5%;
+}
